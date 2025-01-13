@@ -6,12 +6,14 @@ substrates for wide bandgap electronic cooling. *Materials Today Physics*, **202
 
 ## Required Packages
 the following packages are required to run the code:
-<code>torch=2.5.1<code/>
-<code>torch-geometric=2.6.1<code/>
-<code>torch-scatter=2.1.2<code/>
-<code>e3nn=0.5.1<code/>
-<code>Jarvis-tools=2024.10.30<code/>
-<code>scikit-learn=1.2.2<code/>
+<code>torch=2.5.1</code>
+<code>torch-geometric=2.6.1</code>
+<code>torch-scatter=2.1.2</code>
+<code>e3nn=0.5.1</code>
+<code>Jarvis-tools=2024.10.30</code>
+<code>scikit-learn=1.2.2</code>
+
+other versions might work, but those versions were successful in running the code
 
 ## Usage
 you can simply run the following line to run the code:<br/>
