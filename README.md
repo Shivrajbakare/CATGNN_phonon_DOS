@@ -1,5 +1,5 @@
 # CATGNN_phonon_DOS
-code used to predict phonon DOS using our developed CATGNN model which was used to produce the following work:<br/>
+code used to predict phonon DOS using our developed CATGNN model which was used to produce the following work:</br>
 Al-Fahdi, M., Lin, C., Shen, C., Zhang, H., & Hu, M. Rapid prediction of phonon density
 of states by crystal attention graph neural network and High-Throughput screening of candidate
 substrates for wide bandgap electronic cooling. *Materials Today Physics*, **2024**, 101632.
@@ -17,7 +17,7 @@ other versions might work, but those versions were successful in running the cod
 
 ## Usage
 you can simply run the following line to run the code:<br/>
-<code>python main.py<code/>
+<code>python main.py</code>
 
 ## Credit
 * Please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
