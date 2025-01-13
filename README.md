@@ -5,7 +5,7 @@ of states by crystal attention graph neural network and High-Throughput screenin
 substrates for wide bandgap electronic cooling. *Materials Today Physics*, **2024**, 101632.
 
 ## Required Packages
-the following packages are required to run the code:
+the following packages are required to run the code:</br>
 <code>torch=2.5.1</code></br>
 <code>torch-geometric=2.6.1</code></br>
 <code>torch-scatter=2.1.2</code></br>
