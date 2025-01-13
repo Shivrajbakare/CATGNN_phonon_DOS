@@ -19,8 +19,8 @@ other versions might work, but those versions were successful in running the cod
 
 ## Usage
 untar the data directory by running:</br>
-<code>tar -xvzf data.tar</code>
-you can edit the model parameters from the file "model_params.yaml" and the parameters should be straightforward to edit.
+<code>tar -xvzf data.tar</code></br>
+you can edit the model parameters from the file "model_params.yaml" and the parameters should be straightforward to edit.</br>
 you can simply run the following line to run the code:</br>
 <code>python main.py</code>
 
