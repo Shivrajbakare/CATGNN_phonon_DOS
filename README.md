@@ -9,7 +9,5 @@ the following packages are required to run the code
 
 ## Usage
 you can simply run the following line to run the code:<br/>
-<code>
-python main.py
-<code/>
+<code>python main.py<code/>
 
