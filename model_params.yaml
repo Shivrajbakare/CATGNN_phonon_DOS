@@ -1,0 +1,26 @@
+atom_feats_type: 'cgcnn'
+atom_attrs_type: 'z'
+structure_format: 'vasp'
+max_radius: 4.5
+num_neighbors: null
+
+validSplit: 0.1
+testSplit: 0.1
+
+number_of_basis: 32
+basis_type: "gaussian"
+cutoff_basis: False
+mul: 32
+lmax: 2
+
+in_dim: 103
+em_dim: 67
+out_dim: 67
+target_dim: 67
+
+n_conv_layers: 2
+n_GAT_layers: 3
+
+batch_size: 256
+num_epochs: 200
+patience: 70
