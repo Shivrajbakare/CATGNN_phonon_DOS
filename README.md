@@ -4,7 +4,7 @@ code used to predict phonon DOS using our developed CATGNN model which was used 
 of states by crystal attention graph neural network and High-Throughput screening of candidate
 substrates for wide bandgap electronic cooling. *Materials Today Physics*, **2024**, 101632.
 
-- please cite this work if you use the code
+- please cite the above work if you use the code
 
 ## Required Packages
 the following packages are required to run the code:</br>
