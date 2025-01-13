@@ -22,5 +22,5 @@ n_conv_layers: 2
 n_GAT_layers: 3
 
 batch_size: 256
-num_epochs: 200
+num_epochs: 4
 patience: 70
