@@ -53,7 +53,7 @@ def smooth_cutoff(x):
 	y[u < -1] = 1
 	return y
 
-# outputs one hot encoding atomic mass, one hot encoding atomic number, type encoding dictionary of atomic numbers
+# outputs one hot encoding atomic mass, one hot encoding atomic number, "type_encoding" dictionary of atomic numbers
 def obtain_features():
 	type_encoding={}
 	an_type=[]
