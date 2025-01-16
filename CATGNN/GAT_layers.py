@@ -65,7 +65,7 @@ class MLP_layers(nn.Module):
 
 	
 	
-class GAT_Crystal_layer(MessagePassing):
+class MHA_CAT(MessagePassing):
 	def __init__(self, input_dim: int, output_dim: int, edge_dim: int, hidden_dims: Union[int, list[int]]=None, heads: int = 8, bias=True, concat=False, GAT_implement: bool=True):
 		super().__init__(aggr='add',flow='target_to_source', )
 		self.input_dim=input_dim
@@ -160,7 +160,7 @@ class GAT_Crystal_layer(MessagePassing):
 		return aggr_out
 
 
-class Elements_Ratio_Attention(torch.nn.Module):
+class Elements_Attention(torch.nn.Module):
 	def __init__(self,neurons):
 		'''
 		Global-Attention Mechanism based on the crystal's elemental composition
