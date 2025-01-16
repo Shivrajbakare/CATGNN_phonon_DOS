@@ -18,7 +18,7 @@ from typing import Union, Optional, Dict
 
 
 from CATGNN.conv_layer import Network
-from CATGNN.GAT_layers import Elements_Ratio_Attention, GAT_Crystal_layer, find_activation
+from CATGNN.GAT_layers import Elements_Attention, MHA_CAT, find_activation
 
 default_dtype = torch.float64
 torch.set_default_dtype(default_dtype)
