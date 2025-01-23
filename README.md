@@ -6,8 +6,8 @@ The framework of the model is shown in the figure below:</br>
 This code was used to predict phonon DOS using our developed CATGNN model which was used to produce the following work:</br>
 - Al-Fahdi, M., Lin, C., Shen, C., Zhang, H., & Hu, M. Rapid prediction of phonon density
 of states by crystal attention graph neural network and High-Throughput screening of candidate
-substrates for wide bandgap electronic cooling. *Materials Today Physics*, **2025**, 101632.
-Note: that the correct figures 1-3 in the above work are in the corrigendum in the following [link](https://www.sciencedirect.com/science/article/pii/S2542529325000094?via%3Dihub).
+substrates for wide bandgap electronic cooling. *Materials Today Physics*, **2025**, 101632. </br>
+**Note**: that the correct figures 1-3 in the above work are in the corrigendum in the following [link](https://www.sciencedirect.com/science/article/pii/S2542529325000094?via%3Dihub).
 - please cite the above work if you use the code
 
 ## Required Packages
