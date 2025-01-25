@@ -40,7 +40,7 @@ class PeriodicNetwork(Network):
 			
 		self._activation = find_activation('softplus') #torch.nn.SiLU()
 
-		self.GAT=nn.ModuleList([GAT_Crystal_layer(input_dim=out_dim, output_dim=out_dim, edge_dim=out_dim, heads=8, GAT_implement=False) for i in range(n_GAT_layers)])
+		self.GAT=nn.ModuleList([MHA_CAT(input_dim=out_dim, output_dim=out_dim, edge_dim=out_dim, heads=8, GAT_implement=False) for i in range(n_GAT_layers)])
 		self.batch_norm = nn.ModuleList([nn.BatchNorm1d(out_dim) for i in range(n_GAT_layers)])
 
 			
