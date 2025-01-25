@@ -25,7 +25,16 @@ torch.set_default_dtype(default_dtype)
 
 			
 class PeriodicNetwork(Network):
-	def __init__(self, in_dim, em_dim, out_dim, edge_dim, target_dim, n_GAT_layers=3, nonlinear_post_scatter: bool=True, **kwargs):            
+	def __init__(self, 
+		in_dim, 
+		em_dim, 
+		out_dim, 
+		edge_dim, 
+		target_dim, 
+		n_GAT_layers: int=3, 
+		nonlinear_post_scatter: bool=True, 
+		**kwargs
+		):            
             
 		super().__init__(**kwargs)
 
