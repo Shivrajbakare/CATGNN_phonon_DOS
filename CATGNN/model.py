@@ -44,7 +44,7 @@ class PeriodicNetwork(Network):
 		self.batch_norm = nn.ModuleList([nn.BatchNorm1d(out_dim) for i in range(n_GAT_layers)])
 
 			
-		self.E_R_Atten = Elements_Ratio_Attention(out_dim)
+		self.E_R_Atten = Elements_Attention(out_dim)
 			
 		self.nonlinear_post_scatter=nonlinear_post_scatter
 			
