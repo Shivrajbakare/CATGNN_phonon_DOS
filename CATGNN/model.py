@@ -20,12 +20,14 @@ from typing import Union, Optional, Dict
 from CATGNN.conv_layer import Network
 from CATGNN.CAT_layers import Elements_Attention, MHA_CAT, find_activation
 
+
 default_dtype = torch.float64
 torch.set_default_dtype(default_dtype)
 
 			
 class PeriodicNetwork(Network):
-	def __init__(self, 
+	def __init__(
+		self, 
 		in_dim, 
 		em_dim, 
 		out_dim, 
@@ -63,7 +65,10 @@ class PeriodicNetwork(Network):
 		self.batch_norm2=nn.BatchNorm1d(out_dim)
 		self.out=nn.Linear(out_dim, target_dim)
 
-	def forward(self, data: Union[Data, Dict[str, torch.Tensor]]) -> torch.Tensor:
+	def forward(self, 
+		data: Union[Data, Dict[str, torch.Tensor]],
+		) -> torch.Tensor:
+		
 		num_graphs=data["ptr"].numel() - 1
 		cgcnn_feats=data.x
 
