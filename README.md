@@ -28,6 +28,3 @@ other versions might work, but those versions were successful in running the cod
 3- you can simply run the following line to run the code:</br>
 <code>python main.py</code>
 
-## Credit
-* Please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
-* also please let me know if more features are needed to be added and/or improved 
